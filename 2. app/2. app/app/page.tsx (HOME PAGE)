@@ -1,0 +1,29 @@
+export default function Home() {
+  return (
+    <main style={{ textAlign: "center", padding: "80px 20px" }}>
+      <h1 style={{ fontSize: 48, fontWeight: "bold" }}>
+        Ascent Trading Partners
+      </h1>
+
+      <p style={{ marginTop: 20, color: "#aaa" }}>
+        Truth in Data. Edge in Markets.
+      </p>
+
+      <div style={{ marginTop: 40 }}>
+        <a
+          href="/dashboard"
+          style={{
+            padding: "12px 24px",
+            background: "gold",
+            color: "black",
+            textDecoration: "none",
+            borderRadius: 8,
+            fontWeight: "bold"
+          }}
+        >
+          Enter Dashboard
+        </a>
+      </div>
+    </main>
+  );
+}
